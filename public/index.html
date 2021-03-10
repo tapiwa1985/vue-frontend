@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+  
+    <link href="main.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <script src="https://unpkg.com/vue-recaptcha@latest/dist/vue-recaptcha.js"></script>
+<!-- Minify -->
+<script src="https://unpkg.com/vue-recaptcha@latest/dist/vue-recaptcha.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer></script>
+</script>
   </head>
   <body>
     <noscript>
